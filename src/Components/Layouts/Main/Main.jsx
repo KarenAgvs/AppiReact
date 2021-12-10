@@ -1,7 +1,7 @@
 
 import { Card } from "../../UI/Card/Card";
 import { SearchBar } from "../../UI/SearchBar/SearchBar";
-import rick from "../../../../images/rick-morty.jpg";
+import rick from '../../../images/rick.jpg';
 import React,{useEffect,useState} from "react";
 
 export const Main=()=>{
