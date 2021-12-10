@@ -45,7 +45,7 @@ export const Main=()=>{
         <>
         <main>
             <div className="BigContainer">
-                <Select key="select" data={name} event={sedEvent}></Select>
+                <SearchBar key="select" data={name} event={sedEvent}/>
             </div>
             <section>
 
