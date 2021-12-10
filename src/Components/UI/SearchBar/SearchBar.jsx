@@ -1,5 +1,5 @@
 import './SearchBar.css';
-import react  from 'react';
+import React from 'react';
 export const SearchBar=({data, event})=>{
     return(
         <>
@@ -8,7 +8,7 @@ export const SearchBar=({data, event})=>{
                 <h1 className="Title">Rick And Morty</h1>
                 <select name="option" id="select" onChange={event}>
                     <option key="one" value="one">Characters</option>
-                    <option key="all" value="all">All characters</option>
+                    <option key="all" value="all">All</option>
                     {
                         data.map(element => (
 
